@@ -1,0 +1,17 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+python-dotenv>=1.0
+httpx>=0.27
+
+# Agent
+langgraph>=0.4
+langchain-core>=0.3
+langchain-google-genai>=2.1
+langchain-groq>=0.3
+langchain-xai>=0.2
+tavily-python>=0.5
+
+# Database (PyMongo's native async client)
+pymongo>=4.13
